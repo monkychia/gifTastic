@@ -1,0 +1,51 @@
+body {
+    background-image: url("../images/bricks.jpg");
+}
+
+.row {
+    width: 100%;
+}
+
+.parent-container {
+    margin-top: 5px;
+    margin-left: 0px;
+}
+
+label {
+    font-weight: bold;
+    color: rgb(255, 255, 177);
+}
+
+.submit {
+    margin-top: 10px;
+}
+
+input, label, .submit {
+    display: block;
+}
+
+.gif {
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.imageBlock {
+    float: left;
+}
+
+.rating {
+    margin-top: 16px;
+    font-weight: bold;
+    color: rgb(255, 255, 177);;
+}
+
+button, .submit {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+
+button:hover, .submit:hover {
+    background-color: #0e312e;
+}
